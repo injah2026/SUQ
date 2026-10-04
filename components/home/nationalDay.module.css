@@ -1,0 +1,20 @@
+.pattern {
+  background-image:
+    repeating-linear-gradient(
+      45deg,
+      rgba(194, 160, 107, 0.09) 0 1px,
+      transparent 1px 26px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      rgba(194, 160, 107, 0.09) 0 1px,
+      transparent 1px 26px
+    );
+  opacity: 0.7;
+}
+
+.glow {
+  background:
+    radial-gradient(55% 45% at 18% 100%, rgba(194, 160, 107, 0.16), transparent 70%),
+    radial-gradient(50% 40% at 100% 0%, rgba(194, 160, 107, 0.1), transparent 70%);
+}

@@ -1,0 +1,40 @@
+.slideZoom {
+  animation: slideZoom 7.5s ease-out forwards;
+}
+
+@keyframes slideZoom {
+  from {
+    transform: scale(1.02);
+  }
+  to {
+    transform: scale(1.11);
+  }
+}
+
+.textFade {
+  animation: textFade 0.8s ease-out both;
+}
+
+@keyframes textFade {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.barFill {
+  animation: barFill 6s linear forwards;
+}
+
+@keyframes barFill {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
