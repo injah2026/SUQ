@@ -269,8 +269,8 @@ export default function ProductCard({
               rel="noopener noreferrer"
               className="mt-2.5 flex items-center justify-center gap-1.5 text-[13px] text-[#94742A] hover:text-[#B8913A] transition-colors cursor-pointer whitespace-nowrap"
             >
-              <span className="w-4 h-4 flex items-center justify-center text-[15px]">
-                <i className="ri-whatsapp-line"></i>
+              <span className="w-5 h-5 flex items-center justify-center text-[18px] text-[#25D366]">
+                <i className="ri-whatsapp-fill"></i>
               </span>
               اسأل عن هذا المنتج
             </a>

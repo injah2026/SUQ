@@ -2,3 +2,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media (min-width: 1024px) {
+  html {
+    zoom: 0.9;
+    background-color: #F8F4EE;
+  }
+}
