@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 88" role="img" aria-label="رمز مجاز المستوحى من البشت والعقال"><style>/* Saudi signature, editorial collections and coordinated light/dark surfaces. */
+:root{color-scheme:light;--crest-cloth:#183E32;--crest-thread:#B39154;--crest-ghutra:#F5EFE0;--crest-cord:#172C23;--on-deep:#F4F1E8}
+.brand{gap:10px}
+.brand-mark{display:block;width:48px;height:56px;flex-shrink:0;color:var(--gold);font:inherit}
+.brand-mark .saudi-mark{display:block;width:100%;height:100%;stroke-width:1;overflow:visible}
+.mark-frame{fill:none;stroke:var(--gold);stroke-width:1;opacity:.65}
+.bisht-cloth{fill:var(--crest-cloth);stroke:var(--crest-thread);stroke-width:1}
+.mark-trim{stroke:var(--crest-thread);stroke-width:1.7;fill:none}
+.mark-thread{stroke:var(--crest-thread);stroke-width:.8;fill:none}
+.mark-knot{fill:var(--crest-thread);stroke:none}
+.ghutra-cloth{fill:var(--crest-ghutra);stroke:var(--crest-thread);stroke-width:.8}
+.ghutra-fold{fill:none;stroke:var(--crest-thread);stroke-width:.7;opacity:.7}
+.agal-cord{fill:none;stroke:var(--crest-cord);stroke-width:3.6}
+.mark-bisht,.mark-agal{transform-origin:40px 46px;animation:crest-bisht 7s ease-in-out infinite}
+.mark-agal{animation-name:crest-agal;opacity:0}
+@keyframes crest-bisht{0%,35%,100%{opacity:1;transform:translateY(0)}45%,85%{opacity:0;transform:translateY(3px)}}
+@keyframes crest-agal{0%,35%,100%{opacity:0;transform:translateY(3px)}45%,85%{opacity:1;transform:translateY(0)}}
+
+@media(prefers-reduced-motion:reduce){.mark-bisht{animation:none;opacity:1}.mark-agal{animation:none;opacity:0}}</style><path class="mark-frame" d="M7 73V39C7 20 21 7 40 7S73 20 73 39v34M18 81h44"/><g class="mark-bisht"><path class="bisht-cloth" d="M28 25 16 33 9 67l20 8 7-39 4-5 4 5 7 39 20-8-7-34-12-8-12 6Z"/><path class="mark-trim" d="m28 25 8 11-7 39m23-50-8 11 7 39M16 33l-7 34m55-34 7 34"/><path class="mark-thread" d="m32 28 6 8-6 32m16-40-6 8 6 32M28 28q12 10 24 0"/><path class="mark-trim" d="M37 33v12m6-12v12"/><circle class="mark-knot" cx="37" cy="46" r="1.5"/><circle class="mark-knot" cx="43" cy="46" r="1.5"/></g><g class="mark-agal"><path class="ghutra-cloth" d="M24 29q16-15 32 0l7 41-13-7-10-22-10 22-13 7Z"/><path class="ghutra-fold" d="m26 38-4 24m32-24 4 24M40 41v28"/><ellipse class="agal-cord" cx="40" cy="29" rx="19" ry="6"/><path class="agal-cord" d="M21 32q0 9 19 9t19-9"/><path class="mark-thread" d="M24 29q16 7 32 0"/></g></svg>
